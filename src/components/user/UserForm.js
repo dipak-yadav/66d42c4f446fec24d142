@@ -78,7 +78,7 @@ const UserForm = ({ dispatch }) => {
 
   return (
     <div>
-      <h3>User Form</h3>
+      <h3>Nasa Form</h3>
       <form>
         <div className="form-group">
           <label htmlFor="asteroid_id">Enter Asteroid ID : </label>
@@ -101,7 +101,7 @@ const UserForm = ({ dispatch }) => {
         >
           Submit
         </button>
-        <span>OR</span>
+        <span className="nasa-or">OR</span>
         <button
           type="button"
           className="btn btn-primary"
@@ -117,6 +117,7 @@ const UserForm = ({ dispatch }) => {
           labelField="name"
           valueField="id"
           onChange={(e) => onSelectAsteroidId(e)}
+          placeholder="Select Asteroid..."
         />
       ) : (
         ""

@@ -5,20 +5,15 @@
 import React, { useEffect } from "react";
 import { connect } from "react-redux";
 import "../App.css";
-import UserForm from './user/UserForm'
+import UserForm from "./user/UserForm";
 
-const mapStateToProps = ({ dispatch, user }) => ({
-  dispatch: dispatch,
-  user
-});
-const Home = ({ user }) => {
-  useEffect(() => {
-  }, []);
-
+const mapStateToProps = ({}) => ({});
+const Home = () => {
+  useEffect(() => {}, []);
 
   return (
     <div className="container">
-      <UserForm/>
+      <UserForm />
     </div>
   );
 };

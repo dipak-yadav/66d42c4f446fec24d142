@@ -15,11 +15,12 @@ img.card-img-top.country-img {
   margin: 8px;
 }
 
-.card.country-card {
-  width: 100%;
+.card.nasa-card {
+  width: 37%;
   float: left;
   margin: 10px;
   padding: 10px;
+  margin-left: 440px;
 }
 
 
@@ -34,6 +35,9 @@ button.btn.btn-primary {
 
 .react-dropdown-select.undefined.css-wmw4vi-ReactDropdownSelect.e1gzf2xs0 {
   width: 50%;
+}
+span.nasa-or{
+  color: gray;
 }
 
 
